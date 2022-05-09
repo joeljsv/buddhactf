@@ -120,8 +120,8 @@ module.exports.quest_post = async(req, res) => {
                 const {
                     answer
                 } = req.body;
-                console.log(`enigma{${quest.Answer.replace(/\s/g, '')}}`.toLocaleLowerCase());
-                if (`enigma{${quest.Answer.replace(/\s/g, '')}}`.toLocaleLowerCase() == answer.replace(/\s/g, '').toLowerCase()) {
+                console.log(`cyborg{${quest.Answer.replace(/\s/g, '')}}`.toLocaleLowerCase());
+                if (`cyborg{${quest.Answer.replace(/\s/g, '')}}`.toLocaleLowerCase() == answer.replace(/\s/g, '').toLowerCase()) {
                     await updateScore({
                         quest,
                         teamScore
