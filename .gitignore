@@ -120,4 +120,4 @@ dist
 
 # project
 pvt/config.js
-key.json
+# key.json
